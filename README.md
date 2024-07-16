@@ -1,5 +1,6 @@
 # Django-CRUD
 Developer: Niya Vyas
+Technology: HTML, CSS, JQuery, Bootsrap, Django, SQLite <br>
 Project Description:
 In this project totally focus on how to set up django crm for crud operation 
 create new record - add new info just by filling details like filling the blanks and just click add now, and boom.
