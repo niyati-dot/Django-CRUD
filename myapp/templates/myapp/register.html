@@ -1,0 +1,40 @@
+{% extends 'myapp/base.html' %}
+
+  {% block content %}
+  <div class="login-page d-flex align-items-center">
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-md-6 mx-auto">
+          <div class="card mt-6">
+            <div class="card-body p-5">
+              <header class="text-center mb-4">
+                <h2 class="text-m text-primary text-uppercase">Register Now</h2>
+              </header>
+              <form method="post">
+                {% csrf_token %}
+                <div class="row">
+                    <div class="col-lg-7 mx-auto text-center">
+                        <div class="input-material-group mb-3">
+                          <label class="label-material"></label> {{ form.username }}
+                        </div>
+                        <div class="input-material-group mb-3">
+                            <label class="label-material"></label> {{ form.password1 }}
+                        </div>
+                        <div class="input-material-group mb-3">
+                          <label class="label-material"></label> {{ form.password2 }}
+                        </div>
+                    </div>
+                    <div class="col-12 text-center">
+                        <button class="btn btn-primary mb-3" type="submit">Sign Up</button><br>
+                        <span class="text-xs text-gray-500">Already have an account?</span><a class="text-xs text-paleBlue ms-1" href="{% url 'login' %}">Login</a>
+                    </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div> 
+      </div>
+    </div>
+  </div>
+  
+  {% endblock %}

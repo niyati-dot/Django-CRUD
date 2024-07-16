@@ -1,0 +1,35 @@
+section.cust-page{
+  border: 1px solid #e8e8e8;
+  margin: 50px;
+}
+.text-white {
+  color: white !important;
+}
+.pd-80 {
+  padding: 80px;
+}
+.mt-10 {
+  margin-top: 200px !important;
+}
+input {
+  border-radius: 5px;
+  border-color: #f3f3f3;
+}
+button, p {
+  font-size: 16px !important;
+}
+span, a, strong{
+  font-size: 14px !important;
+}
+.input-material-group .input-material {
+  font-size: 14px !important;
+}
+h2 {
+  font-size: 22px !important;
+}
+h5, .h5 {
+  font-size: 2rem !important;
+}
+th, td {
+  font-size: 14px !important;
+}
